@@ -1,8 +1,8 @@
 #!/bin/bash
 set -ex
 if [[ -z $PREFIX ]]; then
-	PREFIX=/usr
+	PREFIX=/
 fi
-mkdir -p $PREFIX/include/rphii || true
-cp src/*.h $PREFIX/include/rphii
+mkdir -p $PREFIX/usr/include/rphii || true
+cp src/*.h $PREFIX/usr/include/rphii
 
