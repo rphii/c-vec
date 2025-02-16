@@ -6,7 +6,9 @@
 
 ## Installation
 
-Place headers under `src` into `/usr/include/rphii`
+```
+PREFIX=/usr ./install.sh
+```
 
 ## Platforms
 
