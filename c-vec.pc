@@ -1,0 +1,8 @@
+prefix=/usr
+includedir=${prefix}/include
+
+Name: c-vec
+Description: C vector header
+Cflags: -I${includedir}/rphii
+Version: 9999
+
